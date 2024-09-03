@@ -1,0 +1,15 @@
+\begin{tabular}{lllllllllllll}
+\toprule
+{} & \multicolumn{4}{l}{REMOVE} & \multicolumn{3}{l}{Attended Error (\%)} & \multicolumn{5}{l}{T (Seconds)} \\
+{} & $l_{\text{OAR}}$ & \# Slices Baseline & \# Slices Error & \# Slices Dose &          $baseline$ &      $error$ &       $dose$ &      $baseline$ & $error(\epsilon=0)$ & $error(\epsilon=4)$ & $dose(\epsilon=0)$ & $dose(\epsilon=4)$ \\
+OAR              &                  &                    &                 &                &                     &              &              &                 &                     &                     &                    &                    \\
+\midrule
+BrainStem        &               54 &         23 $\pm$ 3 &      18 $\pm$ 5 &      7 $\pm$ 6 &         100 $\pm$ 0 &  100 $\pm$ 0 &  20 $\pm$ 21 &    182 $\pm$ 94 &       157 $\pm$ 100 &       225 $\pm$ 111 &        48 $\pm$ 47 &        76 $\pm$ 70 \\
+Mandible         &               72 &         35 $\pm$ 3 &     18 $\pm$ 10 &    18 $\pm$ 11 &         100 $\pm$ 0 &  100 $\pm$ 0 &  42 $\pm$ 38 &   277 $\pm$ 405 &       203 $\pm$ 421 &       270 $\pm$ 437 &       111 $\pm$ 86 &      180 $\pm$ 124 \\
+Parotid\_L       &               26 &         27 $\pm$ 3 &      21 $\pm$ 5 &     22 $\pm$ 8 &         100 $\pm$ 0 &  100 $\pm$ 0 &  79 $\pm$ 30 &    175 $\pm$ 44 &        150 $\pm$ 53 &        231 $\pm$ 69 &       144 $\pm$ 63 &       231 $\pm$ 90 \\
+Parotid\_R       &               26 &         26 $\pm$ 3 &      22 $\pm$ 5 &     22 $\pm$ 8 &         100 $\pm$ 0 &  100 $\pm$ 0 &  83 $\pm$ 29 &    190 $\pm$ 55 &        169 $\pm$ 62 &        253 $\pm$ 77 &       160 $\pm$ 71 &       244 $\pm$ 96 \\
+Submandibular\_L &               35 &         14 $\pm$ 2 &      10 $\pm$ 3 &     13 $\pm$ 4 &         100 $\pm$ 0 &  100 $\pm$ 0 &  93 $\pm$ 26 &    111 $\pm$ 39 &         93 $\pm$ 47 &        134 $\pm$ 57 &       102 $\pm$ 48 &       153 $\pm$ 59 \\
+Submandibular\_R &               35 &         14 $\pm$ 2 &      10 $\pm$ 3 &     13 $\pm$ 4 &         100 $\pm$ 0 &  100 $\pm$ 0 &  92 $\pm$ 25 &    101 $\pm$ 30 &         82 $\pm$ 34 &        121 $\pm$ 44 &        94 $\pm$ 39 &       146 $\pm$ 53 \\
+Total            &                - &        140 $\pm$ 9 &     98 $\pm$ 19 &    96 $\pm$ 30 &         100 $\pm$ 0 &  100 $\pm$ 0 &  68 $\pm$ 19 &  1036 $\pm$ 445 &       855 $\pm$ 474 &      1233 $\pm$ 516 &      659 $\pm$ 227 &     1031 $\pm$ 333 \\
+\bottomrule
+\end{tabular}
