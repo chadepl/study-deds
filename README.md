@@ -4,27 +4,26 @@
 
 This repository contains the code for the simulation study reported in the paper:
 ```
-Chaves-de-Plaza, Nicolas & Mody, Prerak & Hildebrandt, Klaus & Staring, Marius & Astreinidou, Eleftheria & Ridder, Mischa & Ridder, Huib & Vilanova, Anna & Vanegmond, Rene. (2023). Implementation of Delineation Error Detection Systems in Clinical Practice: Do AI-Supported Optimization and Human Preferences Meet?. 10.21203/rs.3.rs-3498972/v1. 
+Chaves-de-Plaza, Nicolas & Mody, Prerak & Hildebrandt, Klaus & Staring, Marius & Astreinidou, Eleftheria & Ridder, Mischa & Ridder, Huib & Vilanova, Anna & Vanegmond, Rene. (2023). Implementation of delineation error detection systems in time-critical radiotherapy: Do AI-supported optimization and human preferences meet?. Cogn Tech Work (2024). https://doi.org/10.1007/s10111-024-00784-4
 ```
-TODO: update with final citation.
+
+Chaves-de-Plaza, N.F., Mody, P., Hildebrandt, K. et al. Implementation of delineation error detection systems in time-critical radiotherapy: Do AI-supported optimization and human preferences meet?. Cogn Tech Work (2024). https://doi.org/10.1007/s10111-024-00784-4
 
 ![Alt Text](qa_computational_model.png "Scheme of the delineation quality assessment (QA) process for an OAR")
 *Scheme of the delineation quality assessment (QA) process for an OAR. The analyze slice and edit slice rectangles have an associated time cost. The workflow variations we implement differ in the implementation of the go to next slice and analyze slice steps, which have a thicker border.*
 
 If you use our code in your publications, please consider citing:
 ```
-@unknown{article,
+@article{article,
 author = {Chaves-de-Plaza, Nicolas and Mody, Prerak and Hildebrandt, Klaus and Staring, Marius and Astreinidou, Eleftheria and Ridder, Mischa and Ridder, Huib and Vilanova, Anna and Vanegmond, Rene},
-year = {2023},
-month = {10},
-pages = {},
-title = {Implementation of Delineation Error Detection Systems in Clinical Practice: Do AI-Supported Optimization and Human Preferences Meet?},
-doi = {10.21203/rs.3.rs-3498972/v1}
+year = {2024},
+journal = {Cognition, Technology \& Work},
+title = {Implementation of delineation error detection systems in time-critical radiotherapy: Do AI-supported optimization and human preferences meet?},
+doi = {10.1007/s10111-024-00784-4}
 }
 ```
-TODO: update with final citation.
 
-[Link to paper (TODO: update with final paper link.)](https://www.researchsquare.com/article/rs-3498972/v1)
+[Link to paper](https://link.springer.com/article/10.1007/s10111-024-00784-4#Sec16)
 
 ## Setup
 1. Install a conda (we recommend using [miniconda](https://docs.conda.io/projects/miniconda/en/latest/))
